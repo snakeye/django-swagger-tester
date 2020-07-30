@@ -1,0 +1,9 @@
+SampleObject:
+  type: object
+  parameters:
+    id:
+      type: number
+      example: 1
+    name:
+      type: string
+      example: Sample Object

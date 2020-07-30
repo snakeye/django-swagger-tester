@@ -225,3 +225,14 @@ paths:
       responses:
         '204':
           description: ''
+  /api/v1/external:
+    get:
+      operationId: returnExternalSchema
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: 'external.yml#SampleObject'
